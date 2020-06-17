@@ -1,18 +1,27 @@
-.btn:link,
-.btn:visited {
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 15px 40px;
-  display: inline-block;
-  border-radius: 100px;
-  transition: all 0.2s;
-  position: relative;
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+    position: relative;
+
+    //changes for
+    border: none;
+    cursor: pointer;
+  }
 }
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba($color-black, 0.2);
 }
-.btn:active {
+.btn:active,
+.btn:focus {
+  outline: none;
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba($color-black, 0.2);
 }
