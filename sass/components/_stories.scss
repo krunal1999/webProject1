@@ -32,6 +32,9 @@
 
   &__text {
     transform: skewX(12deg);
+    &__para {
+      font-size: 1.2rem;
+    }
   }
   &__caption {
     position: absolute;

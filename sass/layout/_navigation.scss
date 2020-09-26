@@ -4,8 +4,8 @@
   }
   &__button {
     background-color: $color-white;
-    height: 7rem;
-    width: 7rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
     position: fixed;
     top: 6rem;
@@ -16,8 +16,8 @@
     cursor: pointer;
   }
   &__background {
-    height: 6rem;
-    width: 6rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     position: fixed;
     top: 6.5rem;
@@ -50,12 +50,12 @@
     text-align: center;
   }
   &__item {
-    margin: 1rem;
+    margin: 0.5rem;
   }
   &__link {
     &:link,
     &:visited {
-      font-size: 3rem;
+      font-size: 2rem;
       display: inline-block;
       font-weight: 300;
       padding: 1rem 2rem;
@@ -90,12 +90,12 @@
   //   icon
   &__icon {
     position: relative;
-    margin-top: 3.5rem;
+    margin-top: 2.2rem;
 
     &,
     &::before,
     &::after {
-      width: 3rem;
+      width: 2rem;
       height: 2px;
       background-color: $color-grey-dark;
       display: inline-block;

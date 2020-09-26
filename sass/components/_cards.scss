@@ -1,11 +1,11 @@
 .card {
-  perspective: 150rem;
-  -moz-perspective: 150rem;
+  perspective: 100rem;
+  -moz-perspective: 100rem;
   position: relative;
-  height: 52rem;
+  height: 40rem;
 
   &__side {
-    height: 52rem;
+    height: 43rem;
 
     position: absolute;
     top: 0;
@@ -58,7 +58,7 @@
   //front side styling
   &__picture {
     background-size: cover;
-    height: 23rem;
+    height: 20rem;
     background-blend-mode: screen;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -90,19 +90,19 @@
   }
 
   &__heading {
-    font-size: 2.8rem;
+    font-size: 1.5rem;
     font-weight: 300;
     text-transform: uppercase;
     text-align: right;
     color: $color-white;
     position: absolute;
-    top: 10rem;
-    left: 6rem;
+    top: 15rem;
+    left: 3rem;
     width: 65%;
   }
 
   &__heading-span {
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1rem;
     -webkit-box-decoration-break: clone;
 
     &--1 {
@@ -129,7 +129,7 @@
   }
 
   &__details {
-    padding: 3rem;
+    padding: 1rem;
     ul {
       list-style: none;
       width: 80%;
@@ -138,7 +138,7 @@
       li {
         text-align: center;
         font-size: 1.5rem;
-        padding: 1rem;
+        padding: 0.8rem;
 
         &:not(:last-child) {
           border-bottom: 1px solid $color-grey-light;
